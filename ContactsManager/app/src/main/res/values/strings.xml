@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Contacts Manager</string>
+    <string name="additional_fields">Show Additional Fields</string>
+</resources>
