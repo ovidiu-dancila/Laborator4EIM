@@ -121,7 +121,7 @@ public class ContactsManagerActivity extends AppCompatActivity {
         switch (requestCode) {
             case Constants.CONTACTS_MANAGER_REQUEST_CODE:
                 setResult(resultCode, new Intent());
-                finish();
+                Toast.makeText(this, "Activiy return with result" + resultCode, Toast.LENGTH_LONG).show();
                 break;
         }
     }
